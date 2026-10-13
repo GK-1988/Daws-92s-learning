@@ -24,6 +24,6 @@
 a="Enter the first number: "
 b="Enter the second number: "
 echo "First number is: $a"
-echo "Second number is: $b"
+echo "Second number is: $b"         
 sum=$((a + b))
 echo "The sum of $a and $b is: $sum"
