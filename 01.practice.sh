@@ -21,8 +21,10 @@
 #name="Chinnu"
 #age=25
 #echo "My name is $name and I am $age years old."
-a="Enter the first number: "
-b="Enter the second number: "
+echo "Enter the first number: "
+read a
+echo "Enter the second number: "
+read b
 echo "First number is: $a"
 echo "Second number is: $b"         
 sum=$((a + b))
