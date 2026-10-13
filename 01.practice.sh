@@ -16,8 +16,14 @@
 #read language
 
 # Print the variables back to the user
-echo "Hello $user_name! It's awesome that you like coding in $language."
+#echo "Hello $user_name! It's awesome that you like coding in $language."
 #-------------------------------------#
-name="Chinnu"
-age=25
-echo "My name is $name and I am $age years old."
+#name="Chinnu"
+#age=25
+#echo "My name is $name and I am $age years old."
+a=10
+b=20
+echo "First number is: $a"
+echo "Second number is: $b"
+sum=$((a + b))
+echo "The sum of $a and $b is: $sum"
