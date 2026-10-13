@@ -19,4 +19,4 @@ echo  $Greeting" now with spaces: $Greeting"
 
 
 date='TZ="America/Los_Angeles" 09:00 next Fri'
-echo "$ date"
+echo "$date"
