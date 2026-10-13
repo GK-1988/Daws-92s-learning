@@ -8,15 +8,12 @@
 #ls -l
 
 #-------------------------------------#
-PRICE_FOR_APPLE=5
-MyFirstLetters=ABCD
-Greeting='Hello   World!'
+# Prompt the user for input
+echo "What is your name?"
+read user_name
 
-echo "The price of an Apple today is: \$HK $PRICE_PER_APPLE"
-echo "The frist 10 letters in the alphabet are: ${MyFirstLetters}EFGHIJ"
-echo  $Greeting" now with spaces: $Greeting"
+echo "What is your favorite programming language?"
+read language
 
-
-
-date='TZ="America/Los_Angeles" 09:00 next Fri'
-echo "$date"
+# Print the variables back to the user
+echo "Hello $user_name! It's awesome that you like coding in $language."
