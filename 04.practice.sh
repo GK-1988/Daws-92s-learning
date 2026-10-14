@@ -49,7 +49,7 @@ echo "Execution Time: $EXECUTION_TIME seconds"
 
 ##---------------Check User eist or not-------------------------###
 id root &> /dev/null
-if [ $? -eq 0 ]
+if [ $? -ne 0 ]
 then
     echo "User exists"
 else                        
