@@ -21,6 +21,7 @@ fi
 echo "Current directory: $(pwd)"
 echo "Current user: $(whoami)"
 echo "list the files in the current directory:"
+ls -l
 
 
 
