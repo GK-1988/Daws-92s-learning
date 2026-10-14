@@ -37,3 +37,10 @@ Host=$(hostname)
 echo "Current Date: $current_date"
 echo "Current User: $current_user"
 echo "Hostname: $Host"
+
+###-------------Capture Execution Time-------------------------###
+START_TIME=$(date +%s)
+sleep 5
+END_TIME=$(date +%s)
+EXECUTION_TIME=$(($END_TIME- $START_TIME))
+echo "Execution Time: $EXECUTION_TIME seconds"
