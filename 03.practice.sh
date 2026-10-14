@@ -11,11 +11,11 @@ echo "The total of $abc and $xyz is: $total"
 read -p "Enter a number: " num
 echo "$(($num * $num))"
 #------create a variable called filename and check whether the file exists or not----#
-filename="example.txt"
+filenames="*sh"
 if [ -f "$filename" ]; then
-    echo "File exists"
+    echo "File exists: $filenames"
 else
-    echo "File does not exist"
+    echo "File does not exist: $filenames"
 fi
 
 
