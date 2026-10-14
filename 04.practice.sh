@@ -9,5 +9,7 @@ echo "I am excited to learn shell scripting and improve my skills."
 #-----------variables---------------------#
 NAME="Gopi Krishna Lukka"
 COMPANY="JoinDevOps"
-echo "My name is $NAME and I work at $COMPANY."
+echo "My name is $NAME"
+echo "I work at $COMPANY."
+
 
