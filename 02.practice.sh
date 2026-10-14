@@ -22,7 +22,7 @@ last_name="Doe"
 full_name="$first_name $last_name"
 echo "Full Name: $full_name"
 #---stores directory path into a variable and prints it----------------#
-folder="/Devops/DAWS-92s/repos/Daws-92s-learning"
+folder="/Daws-92s-learning"
 echo "Folder Path: $folder"
 
 if [ -d "$folder" ]; then
