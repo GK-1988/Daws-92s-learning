@@ -30,3 +30,10 @@ echo "arg3: $3"
 echo "Total number of arguments: $#"
 echo "All arguments: $@"
 echo "All arguments: $*"
+###--------------Capture Command Output-------------------------###
+current_date=$(date)
+current_user=$(whoami)
+Host=$(hostname)
+echo "Current Date: $current_date"
+echo "Current User: $current_user"
+echo "Hostname: $Host"
