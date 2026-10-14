@@ -46,3 +46,12 @@ sleep 5
 END_TIME=$(date +%s)
 EXECUTION_TIME=$(($END_TIME- $START_TIME))
 echo "Execution Time: $EXECUTION_TIME seconds"
+
+##---------------Check User eist or not-------------------------###
+id mongodb &> /dev/null
+if [ $? -eq 0 ]
+then
+    echo "User exists"
+else                        
+    echo "User does not exist"
+fi  
