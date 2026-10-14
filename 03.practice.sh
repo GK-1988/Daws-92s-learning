@@ -10,5 +10,13 @@ echo "The total of $abc and $xyz is: $total"
 #-----------read a number from the user and print its square----------------#
 read -p "Enter a number: " num
 echo "$(($num * $num))"
+#------create a variable called filename and check whether the file exists or not----#
+filename="example.txt"
+if [ -f "$filename" ]; then
+    echo "File exists: $filename"
+else
+    echo "File does not exist: $filename"
+fi
+
 
 
