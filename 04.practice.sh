@@ -5,3 +5,9 @@ echo "what's your plan for today?"
 echo "I will be learning shell scripting today."
 echo "how do you feel about it?"
 echo "I am excited to learn shell scripting and improve my skills."
+
+#-----------variables---------------------#
+NAME="Gopi Krishna Lukka"
+COMPANY="JoinDevOps"
+echo "My name is $NAME and I work at $COMPANY."
+
