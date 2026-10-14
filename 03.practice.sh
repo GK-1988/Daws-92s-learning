@@ -20,7 +20,8 @@ fi
 #-------------------------------------------------#
 echo "Current directory: $(pwd)"
 echo "Current user: $(whoami)"
-echo "list the file in the current directory: ls -l *.txt"
+echo "list the files in the current directory: "
+ls *.sh
 
 
 
