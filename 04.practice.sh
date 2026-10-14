@@ -21,3 +21,12 @@ echo "Enter your city"
 read city
 echo "Hello my name is $name! and i have $age years old and live in $city."
 
+###-------------------Arguments-------------------------###
+
+echo "arg0: $0"
+echo "arg1: $1"
+echo "arg2: $2"
+echo "arg3: $3"
+echo "Total number of arguments: $#"
+echo "All arguments: $@"
+echo "All arguments: $*"
