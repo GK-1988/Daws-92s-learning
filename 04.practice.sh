@@ -12,4 +12,12 @@ COMPANY="JoinDevOps"
 echo "My name is $NAME"
 echo "I work at $COMPANY."
 
+#-----------user input------------------------#
+echo "Enter your name"
+read name
+echo "Enter your age"
+read age
+echo "Enter your city"
+read city
+echo "Hello my name is $name! and i have $age years old and live in $city."
 
