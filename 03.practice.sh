@@ -13,9 +13,9 @@ echo "$(($num * $num))"
 #------create a variable called filename and check whether the file exists or not----#
 filename="example.txt"
 if [ -f "$filename" ]; then
-    echo "File exists: $filename"
+    echo "File exists"
 else
-    echo "File does not exist: $filename"
+    echo "File does not exist"
 fi
 
 
