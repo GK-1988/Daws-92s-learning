@@ -1,9 +1,4 @@
 #!/bin/bash
-echo "server1: $1"
-echo "server2: $2"
-echo "server3: $3"
-echo "total servers: $#"
-echo "all servers: $@"
 #---------------spcial variables and background process-------------------------#
 echo "All args passed to the script: $@"
 echo "Number of args passed to the script: $#"
