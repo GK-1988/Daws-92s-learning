@@ -17,4 +17,9 @@ echo " Deploying target directory: var/log/$ENV"
 
 echo "Realpath: $(realpath $0)"
 
+echo "Script Name: $0"
+echo "Total arguments passed: $#"
+echo "List of all Arguments: $@"
+
+
 
