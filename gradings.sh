@@ -1,5 +1,5 @@
 #!/bin/bash
-MARKS=$i
+MARKS=$1
 
 if [ -z "$MARKS" ]; then
     echo "Please enter marks as an argument."
