@@ -24,15 +24,17 @@ echo "List of all Arguments: $@"
 ## Checking Exit Status ##
 
 # Try to list a directory that may or may not exist
-ls /var/log/nginx
+dnf list installed nginx 
 
 # Capture exit status of the previous commmand
 STATUS=$?
 
-if [ $STATUS -eq 0 ]; then
-    echo " Success: Nginx log directory exists. "
+if [ $STATUS -ne 0 ]; then
+    echo " Start: Installing Nginx. "
+    dnf install -y nginx
+    STATUS=$?       
 else
-    echo "Failure: Nginx log directory not found (Exit code: $STATUS). "
+    echo " Success: Nginx installed successfully (Exit code: $STATUS). "
 fi
 
 
