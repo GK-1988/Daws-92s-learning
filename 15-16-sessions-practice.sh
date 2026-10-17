@@ -15,5 +15,6 @@ echo "Starting deployment for Environment: $ENV"
 echo "Deploying Version: $VERSION"
 echo " Deploying target directory: var/log/$ENV"
 
+echo "Realpath: $(realpath $0)"
 
 
