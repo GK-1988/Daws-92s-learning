@@ -2,11 +2,11 @@
 # Reads from an environment variable named MARKS
 if [ -z "$MARKS" ]; then
     echo "Error: MARKS environment variable is not set."
+    echo "Usage: MARKS:80 bash EnvironmentVar_gradings.sh"
     exit 1
 fi
 
 echo "Your marks: $MARKS"
-echo "Usage: MARKS:80 bash EnvironmentVar_gradings.sh"
 
 if [ $MARKS -ge 75 ]; then
     echo "Grade: Distinction"
