@@ -42,7 +42,7 @@ if [ $STATUS -eq 0 ]; then
     echo " Status: Nginx is already installed. "
 else
     echo "Start: installing Nginx..."
-    dnf install -y nginx    
+    sudo dnf install -y nginx    
     
     # Capture Exit status of install command
     INSTALL_STATUS=$?
