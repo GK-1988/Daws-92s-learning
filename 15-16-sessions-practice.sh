@@ -21,5 +21,21 @@ echo "Script Name: $0"
 echo "Total arguments passed: $#"
 echo "List of all Arguments: $@"
 
+## Checking Exit Status ##
+
+# Try to list a directory that may or may not exist
+ls /var/log/nginx
+
+# Capture exit status of the previous commmand
+STATUS=$?
+
+if [ $STATUS -eq 0 ]; then
+    echo " Success: Nginx log directory exists. "
+else
+    echo "Failure: Nginx log directory not found (Exit code: $STATUS). "
+fi
+
+
+
 
 
